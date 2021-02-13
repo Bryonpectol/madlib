@@ -19,7 +19,7 @@
 
 /* Desktop */
 
-@media only screen and (min-width: 601px) {
+/* @media only screen and (min-width: 601px) { */
 
   header {
       background: url("/media/banners/peacock.jpg");
@@ -120,9 +120,9 @@
   .weeklya:hover {
       animation: weeklya .5s forwards;
   }
-}
+/* } */
 
 /* Mobile */
 
-@media only screen and (max-width: 600px) {
-}
+/* @media only screen and (max-width: 600px) {
+} */
