@@ -9,7 +9,7 @@
     }
 
     50% {
-        margin: 1vh 15vh 1vh 15vh;
+        margin: 1vh 15vh 0vh 15vh;
     }
 
     100% {
@@ -60,7 +60,7 @@
   }
 
   .nava:hover {
-    background-color: skyblue;
+    background-color: teal;
     color: black;
   }
 
