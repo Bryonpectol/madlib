@@ -3,6 +3,20 @@
   padding: 0px;
 }
 
+@keyframes weeklya {
+    0% {
+        margin: 2vh 17vh 2vh 17vh;
+    }
+
+    50% {
+        margin: 1vh 15vh 1vh 15vh;
+    }
+
+    100% {
+        margin: 2vh 17vh 2vh 17vh;
+    }
+}
+
 /* Desktop */
 
 @media only screen and (min-width: 601px) {
@@ -77,6 +91,8 @@
     border: solid 2px black;
     height: 75vh;
     margin-bottom: 2vh;
+    display: flex;
+    flex-direction: column;
   }
 
   .weeklyh2 {
@@ -90,6 +106,19 @@
       background-color: purple;
       color: white;
       text-align: center;
+  }
+
+  .weeklya {
+      text-decoration: none;
+      background-color: goldenrod;
+      color: black;
+      margin: 2vh 17vh 2vh 17vh;
+      padding: 3vh;
+      /* position: fixed; */
+  }
+
+  .weeklya:hover {
+      animation: weeklya .5s forwards;
   }
 }
 
